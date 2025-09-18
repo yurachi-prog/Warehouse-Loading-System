@@ -69,7 +69,7 @@ public class main_file {
                  } else {
                      warehouse loadedContainer = warehouseStack.pop();
                      truck loadingShip = truckQueue.poll();
-                     System.out.println("Loaded: " + loadedContainer + " → " + loadingShip);
+                     System.out.println("Loaded: " + loadedContainer + "--->" + loadingShip);
                      System.out.println("Remaining containers: " + warehouseStack.size());
                      System.out.println("Remaining ships waiting: " + truckQueue.size());
                  }
@@ -94,4 +94,5 @@ public class main_file {
 
 }
 }
+
 
