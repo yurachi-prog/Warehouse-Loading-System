@@ -50,7 +50,6 @@ public class main_file {
 				System.out.println("Enter truck driver:");
 				String driver = sc.nextLine();
 				
-				sc.nextLine();
 					truck tk = new truck(plate, driver);
 					truckQueue.offer(tk);
 					System.out.println("Registered:" + tk);
@@ -95,3 +94,4 @@ public class main_file {
 
 }
 }
+
